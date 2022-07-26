@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: "Karla", sans-serif;
+}
+
+.container {
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    width: 35%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.top h2 {
+
+    color: hsl(179, 62%, 43%);
+    padding-left: 35px;
+    padding-top: 35px;
+}
+
+.top h3 {
+    color: hsl(71, 73%, 54%);
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-right: 65px;
+    padding-bottom: 40px;
+    line-height: 25px;
+}
+
+
+
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    border-bottom-left-radius: 15px;
+
+}
+
+.left p {
+    color: hsl(204, 43%, 93%);
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+
+.right {
+    background-color: hsl(179, 47%, 56%);
+    width: 50%;
+    height: 280px;
+    border-bottom-right-radius: 15px;
+}
+
+.right p {
+    color: hsl(204, 43%, 93%);
+    padding-right: 60px;
+    padding-left: 35px;
+}
+
+h4 {
+    color: hsl(204, 43%, 93%);
+    font-size: 18px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.price {
+    color: hsl(204, 43%, 93%);
+    font-size: 32px;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.time {
+    color: hsla(197, 23%, 94%, 0.61);
+    padding-left: 5px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+.bottom {
+    display: flex;
+    align-items: stretch;
+}
